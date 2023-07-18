@@ -40,3 +40,17 @@
     border-width: thin;
     border-style: solid;
 }
+
+.light-theme .newsletter{
+background: linear-gradient(
+    180deg,
+    rgba(189, 243, 255, 1) 29%,
+    rgba(193, 243, 255, 1) 50%,
+    rgba(226, 250, 255, 1) 78%
+  );
+}
+
+.light-theme .suscribe__btn{
+    background: var(--primary-color);
+    color: #fff;
+}
