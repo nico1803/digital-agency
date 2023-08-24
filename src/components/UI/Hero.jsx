@@ -1,8 +1,9 @@
 import React from 'react'
 import '../../styles/hero.css'
 import HeroDarkImg from '../../images/hero-img.png'
+import lightImg from '../../images/light-hero-bg.jpg'
 
-export default function Hero() {
+export default function Hero({theme}) {
   return (
     <section className='hero__section'>
         <div className="container">
@@ -20,7 +21,7 @@ export default function Hero() {
                     </div>
                 </div>
                 <div className="hero__img">
-                    <img src={HeroDarkImg} alt="hero-img" />
+                    <img src={theme==='light-theme' ? lightImg : HeroDarkImg} alt="hero-img" />
                 </div>
             </div>
         </div>

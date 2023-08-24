@@ -28,7 +28,7 @@ const nav_links =[
     },
 ]
 
-export default function Header() {
+export default function Header({theme,toggleTheme}) {
   return (
     <header className="header">
         <div className="container">
@@ -50,7 +50,10 @@ export default function Header() {
             
                 {/* ========= ligth mode =========*/}
                 <div className="light__mode">
-                        <span><i class="ri-sun-line"></i> Ligth Mode 
+                        <span onClick={toggleTheme}>
+                        {
+                            theme==='light-theme' ? (<span className='black'><i class="ri-moon-line"></i> Dark</span>) : (<span><i class="ri-sun-line"></i> Ligth</span>)
+                        }
                         </span>
                 </div>
             </div>

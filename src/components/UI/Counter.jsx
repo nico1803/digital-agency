@@ -3,15 +3,15 @@ import '../../styles/counter.css'
 
 const counterData = [
     {
-        number: '5K',
+        number: '5K+',
         text:'Clients'
     },
     {
-        number: 350,
+        number: '350+',
         text:'Running Projects'
     },
     {
-        number: 900,
+        number: '900+',
         text:'Projects Completed'
     },
 ]

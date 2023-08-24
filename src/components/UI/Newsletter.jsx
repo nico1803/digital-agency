@@ -13,7 +13,7 @@ export default function Newsletter() {
 
                 <div className="newsletter__form">
                     <input type="email" placeholder='Email'/>
-                    <button className="secondary__btn">Subscribe Now</button>
+                    <button className="secondary__btn suscribe__btn">Subscribe Now</button>
                 </div>
 
             </div>

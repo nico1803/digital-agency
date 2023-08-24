@@ -31,7 +31,7 @@ const blogData = [
 ]
 
   return (
-    <section>
+    <section id='blog' className='blog'>
         <div className="container">
             <div className="blog_top-content">
                 <h6 className="subtitle">Our Blog</h6>
