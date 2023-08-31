@@ -30,7 +30,7 @@ const serviceData = [
 
 export default function Services() {
   return (
-    <section className="service">
+    <section className="service" id='service'>
         <div className="container">
             <div className="service__top-content">
                 <h6 className='subtitle'>Our Services</h6>

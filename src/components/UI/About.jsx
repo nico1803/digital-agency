@@ -22,7 +22,7 @@ const chooseData = [
 
 export default function About() {
   return (
-    <section className="about">
+    <section className="about" id='about'>
         <div className="container">
             <div className="about__wrapper">
                 <div className="about__content">
