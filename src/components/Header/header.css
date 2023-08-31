@@ -52,4 +52,9 @@
     top: 0;
     left: 0;
     z-index: 999;
+    background: #0c123d;
+}
+
+.light-theme .header__shrink{
+    background: #f7f7f7;
 }
