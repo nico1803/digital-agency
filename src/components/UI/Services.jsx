@@ -34,7 +34,7 @@ export default function Services() {
         <div className="container">
             <div className="service__top-content">
                 <h6 className='subtitle'>Our Services</h6>
-                <h2>Save time managing youR business whit</h2>
+                <h2>Save time managing your business with</h2>
                 <h2 className="highlight"> our best service</h2>
             </div>
 
