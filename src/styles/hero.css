@@ -52,3 +52,10 @@
 .secondary__btn{
     background: var(--btn-primary-bg);
 }
+
+@media only screen and (max-width:992px) {
+    .hero__content h2{
+        font-size: 1.8rem;
+        line-height: 50px;
+    }
+}
